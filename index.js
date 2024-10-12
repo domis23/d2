@@ -8,5 +8,5 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("firstname", firstname.value);
     params.set("surname", surname.value);
   
-    location.href = "/yObywatel/id?" + params;
+    location.href = "/d2/id?" + params;
 });
